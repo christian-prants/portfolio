@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import IconGithub  from './assets/icon/github.svg?react';
 import IconLinkedIn from './assets/icon/linkedin.svg?react';
 import Home from "./pages/home";
@@ -10,7 +10,7 @@ import './styles/main.scss';
 
 export default function App() {
   return (
-    <Router basename={import.meta.env.BASE_URL}>
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
