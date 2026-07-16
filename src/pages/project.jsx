@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 import fetchProject from "../api/projects";
+import Excerpt from "../components/excerpt";
 import Card from "../components/card";
 
 import '../styles/main.scss';
@@ -18,24 +19,25 @@ const Project = () => {
         });
     }, []);
 
-    if (loading) return <p>Carregando...</p>;
+    if (loading) {
+        return (
+            <div className="main">
+                <Excerpt />
+                <h1>Loading...</h1>
+            </div>
+        );
+    }
 
     return (
         <div className="main">
-            <section className="excerpt">   
-                <h2>Christian Prants</h2>
-                <span>Autistic, Developer, Designer</span>   
-                <p>               
-                    Coding to deliver secure, performant and user-friendly solutions.
-                </p>
-            </section>
+            <Excerpt />
 
-            <section>
+            <section className="projects">
                 {
                     project.map(info => (
                         <Card info={ info } />
 
-                        /*
+                        /* TODO: curate and upload projects in GH and then fix this
                         <li key={info.name}>
                             <img src={info.openGraphImageUrl} alt={info.name} width="300" />
 
@@ -47,7 +49,7 @@ const Project = () => {
                         </li>
                         */
                     ))
-                }   
+                }
             </section>
         </div>
     )

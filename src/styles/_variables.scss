@@ -3,18 +3,28 @@
 
 // Colors
 $regular-background-color: rgb(245, 244, 243);
-$regular-sub-title-color: rgb(39, 43, 56);
+$regular-sub-title-color: rgb(39, 44, 56);
 $regular-color: rgb(79, 83, 99);
-$regular-accent-color: rgb(61, 197, 156);
-$regular-footer-color: rgba(226, 226, 226, 0.836);
+$regular-highlight-color: rgb(61, 197, 156);
+$regular-navbar-color: #ffffff;
+$regular-navbar-hover-highlight-color: #D7DAE5;
+$regular-navbar-hover-background-color: #181b1f;
+$regular-navbar-page-hover-background-color: #92C7A3;
+$regular-navbar-background-color: #597A64;
+$regular-footer-color: rgba(255, 255, 255, 0.836);
 $regular-footer-icon-color: rgba(114, 180, 160, 0.89);
 
-$dark-background-color: rgb(39, 43, 56);
-$dark-sub-title-color: rgba(255, 255, 255, 0.87);
-$dark-color: rgba(224, 224, 224, 0.87);
-$dark-accent-color: rgba(76, 255, 201, 0.87);
-$dark-footer-color: rgb(26, 31, 46);
-$dark-footer-icon-color: rgba(114, 180, 160, 0.89);
+$dark-background-color: #181e1f; // rgb(39, 43, 56);
+$dark-sub-title-color: #D7DAE5;; // rgba(255, 255, 255, 0.87);
+$dark-color: #D7DAE5; //rgba(224, 224, 224, 0.87);
+$dark-highlight-color: #9cffbc ; //rgba(76, 255, 201, 0.87);
+$dark-navbar-color: #ffffff;
+$dark-navbar-hover-highlight-color: #92C7A3;
+$dark-navbar-hover-background-color: rgb(245, 244, 243);
+$dark-navbar-page-hover-background-color: #597A64;
+$dark-navbar-background-color: #92C7A3;
+$dark-footer-color: #111516; //rgb(26, 31, 46);
+$dark-footer-icon-color: #D7DAE5;
 
 // Fonts
 $primary-font: 'Roboto', sans-serif;

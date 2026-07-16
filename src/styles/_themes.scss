@@ -5,7 +5,12 @@
   --bg-color: #{vars.$regular-background-color};
   --sub-title: #{vars.$regular-sub-title-color};
   --text-color: #{vars.$regular-color};
-  --highlight-color: #{vars.$regular-accent-color};
+  --highlight-color: #{vars.$regular-highlight-color};
+  --navbar-color: #{vars.$regular-navbar-color};
+  --navbar-hover-highlight-color: #{vars.$regular-navbar-hover-highlight-color};
+  --navbar-hover-bg-color: #{vars.$regular-navbar-hover-background-color};
+  --navbar-page-hover-background-color: #{vars.$regular-navbar-page-hover-background-color};
+  --navbar-bg-color: #{vars.$regular-navbar-background-color};
   --footer-color: #{vars.$regular-footer-color};
   --footer-icon-color: #{vars.$regular-footer-icon-color};
 }
@@ -14,7 +19,12 @@
   --bg-color: #{vars.$dark-background-color};
   --sub-title: #{vars.$dark-sub-title-color};
   --text-color: #{vars.$dark-color};
-  --highlight-color: #{vars.$dark-accent-color};
+  --highlight-color: #{vars.$dark-highlight-color};
+  --navbar-color: #{vars.$dark-navbar-color};
+  --navbar-hover-highlight-color: #{vars.$dark-navbar-hover-highlight-color};
+  --navbar-hover-bg-color: #{vars.$dark-navbar-hover-background-color};
+  --navbar-page-hover-background-color: #{vars.$dark-navbar-page-hover-background-color};
+  --navbar-bg-color: #{vars.$dark-navbar-background-color};
   --footer-color: #{vars.$dark-footer-color};
   --footer-icon-color: #{vars.$dark-footer-icon-color};
 }

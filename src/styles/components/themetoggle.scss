@@ -1,6 +1,21 @@
 .btn-thm-toggle {
-    position: fixed;
-    top: 10%;
-    left: 50%;
-    z-index: 1000;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+
+    height: inherit;
+    border-radius: 0.275rem 0 0 0.275rem;
+    fill: var(--navbar-color);
+    font-weight: 500;
+    border-right: solid 1px #000;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.btn-thm-toggle:hover {
+    cursor: pointer;
+    fill: var(--navbar-hover-highlight-color);
+    background-color: var(--navbar-hover-bg-color);
 }
