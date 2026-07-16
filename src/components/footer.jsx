@@ -6,10 +6,22 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className='footer-icon --1'>
-                <IconGithub className="icon --adjust" />
+                <a
+                    href="https://github.com/christian-prants"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <IconGithub className="icon --adjust" />
+                </a>
             </div>
             <div className='footer-icon --2'>
-                <IconLinkedIn className="icon" />
+                <a
+                    href="https://www.linkedin.com/in/christian-prants/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <IconLinkedIn className="icon" />
+                </a>
             </div>
             <div className="footer-bar">
             </div>
